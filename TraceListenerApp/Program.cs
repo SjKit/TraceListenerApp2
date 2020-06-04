@@ -139,6 +139,7 @@ namespace TraceListenerApp
             Trace.Assert(myvar == 0, "myvar is not zero");
 
             Trace.WriteLine("MyMethod has finished");
+            Trace.WriteLine("Return my program");
             return myvar;
         }
     }
